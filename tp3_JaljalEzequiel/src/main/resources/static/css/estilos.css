@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+*{
+	font-family: Arial, helvetica, sans-serif;	
+}
+/* index.html - inicio */
+
+
+
+/* form-cliente.html - Formulario */
+
+.body-form{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../image/fondo-form.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	padding: 50px 55px;
+	box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+	border-radius: 20px;
+	text-align: center;
+	width: 340px;
+	background-color: transparent;
+	backdrop-filter: blur(55px);
+}
+.input-group{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+label{
+	color: #283629;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+input, textarea, select{
+	padding: 17px 25px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.btn{
+	background-color: #00A2FF;
+	color: #FFFFFF;
+}

@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Programacion Visual</title>
+	<title>Programación Visual</title>
 	<link rel="icon" href="..\static\image\htmlimage.ico">
+	<link rel="stylesheet" href="../static/css/estilos.css">
 </head>
-<body background=..\static\image\fondo.jpg>
-	<header >
-		<h1 style=color:red align=center>#{Programación VISUAL}</h1>
+<body>
+	<header>
 		<nav>
-			<h2 id="menu">MENU</h2>
+			<h1 id="menu">#{Programación VISUAL}</h1>
 			<ul>
-				<li><a href="#sectionintroduction">Introduccion</a>
-				<li><a href="#sectionjava">Java</a></li>
-				<li><a href="#sectionhtml">HTML</a></li>
-				<li><a href="#sectioncss">CSS</a></li>
-			</ul><br>
-			<br>
+				<li><a href="form-cliente.html">Formulario</a></li>
+				<li><a href="form-cliente.html">Cursos</a></li>
+				<li><a href="form-cliente.html">Contacto</a></li>
+			</ul>
 		</nav> 
 	</header>
 	<main>
-		<section id="sectionintroduction">
-			<div style=color:pink>
+		<section>
+			<div>
 				<h2>INTRODUCCION</h2>
 				<h3><em>Materia:</em> Programación Visual</h3>
 				<p>En esta materia se ve <strong>HTML, Java y CSS.</strong></p>
@@ -46,8 +44,8 @@
 			</div>
 		</section>
 		
-		<section id="sectionjava">
-			<div style=color:chartreuse>
+		<section>
+			<div>
 				<h2>JAVA</h2>
 				<h3>Que es java?</h3>
 				<p>Java es una plataforma informática de lenguaje de programación creada por Sun Microsystems en 1995.<br>
@@ -61,12 +59,12 @@
 					independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder 
 					describir en detalle cada una de estas características es conveniente indicar como funciona el 
 					proceso de desarrollo de una aplicación Java.</p>
-				<img src="..\static\image\java.jpg" title="Logo de JAVA" alt="Logo de java"  width=600 height=300>
+				<img>
 			</div>
 		</section>
 
-		<section id="sectionhtml">
-			<div style=color:turquoise>
+		<section>
+			<div>
 				<h2>HTML</h2>
 				<h3>Que es HTML?</h3>
 				<p>HTML, acrónimo en inglés de HyperText Markup Language («lenguaje de marcado de hipertexto»), hace referencia al lenguaje de marcado<br>
@@ -74,12 +72,12 @@
 				 	de contenido de una página web, que incluye texto, imágenes, videos, juegos, entre otros elementos.</p>
 				 <p>HTML es un lenguaje de marcado que posibilita definir la estructura de nuestro documento mediante etiquetas. Este lenguaje ofrece una gran<br>
 				 	adaptabilidad, una estructuración lógica y es fácil de interpre­tar tanto por humanos como por máquinas.</p>
-				<img src="..\static\image\html.jpg" title="Logo de HTML" alt="Logo de HTML"  width=600 height=300>
+				<img>
 			</div>
 		</section>
 		
-		<section id="sectioncss">
-			<div style=color:yellow>
+		<section>
+			<div>
 				<h2>CSS</h2>
 				<h3>Que es CSS?</h3>
 				<p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear<br>
@@ -91,39 +89,39 @@
 				 	en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de <br>
 				 	estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento. 
 				</p>
-				<img src="..\static\image\css.png" title="Logo de CSS" alt="Logo de CSS"  width=600 height=300>
+				<img>
 			</div>
 		</section>
 		
-		<section style=color:silver>
-			<h2 align=center>Resumen en una tabla de las tecnologias</h2>
-			<table border=1 style="margin: 0 auto;">
-				<tr style="background-color:white">
-					<th style=color:black>Características</th>
-					<th style=color:black width=200>JAVA</th>
-					<th style=color:black width=200>HTML</th>
-					<th style=color:black width=200>CSS</th>
+		<section>
+			<h2>Resumen en una tabla de las tecnologias</h2>
+			<table>
+				<tr>
+					<th>Características</th>
+					<th>JAVA</th>
+					<th>HTML</th>
+					<th>CSS</th>
 				</tr>
 				<tr>
-					<th style=color:black>Tipo de lenguaje</th>
+					<th>Tipo de lenguaje</th>
 					<td>Lenguaje de programacion orientado a objetos</td>
 					<td>Lenguaje de marcado</td>
 					<td>Lenguaje de estilo en cascada</td>
 				</tr>
 				<tr>
-					<th style=color:black>Propoósito</th>
+					<th>Propoósito</th>
 					<td>Usado para desarrollar aplicaciones, desde aplicaciones de escritorio hasta aplicaciones web</td>
 					<td>Define la estructura y contenido de una página web</td>
 					<td>Define el estilo y la presentación de una página web</td>
 				</tr>
 				<tr>
-					<th style=color:black>Sintaxis</th>
+					<th>Sintaxis</th>
 					<td>Requiere la definición de clases, métodos y variables, sigue una sintaxis específica de Java</td>
 					<td>Utiliza etiquetas y atributos para definir la estructura y contenido de la página</td>
 					<td>Utiliza reglas de estilo, propiedades y valores para aplicar estilos a elementos HTML</td>
 				</tr>
 				<tr>
-					<th style=color:black>Ejecución</th>
+					<th>Ejecución</th>
 					<td>Requiere ser compilado a bytecode y luego interpretado por la máquina virtual Java (JVM)</td>
 					<td>No requiere compilación, es interpretado directamente por el navegador web</td>
 					<td>No requiere compilación, es interpretado directamente por el navegador web</td>
@@ -131,25 +129,22 @@
 			</table>
 		</section>
 		
-		<aside style=color:orange>
-			<h2> Otro tema interesantes es la<Strong>"Programacion Estructurada"</Strong></h2>
+		<aside>
+			<h2> Otro tema interesante es la<Strong>"Programacion Estructurada"</Strong></h2>
 			<h3>Que es la programacion estructurada?</h3>
 			<p>La programación estructurada es un paradigma de programación orientado a mejorar la claridad, calidad y tiempo de desarrollo de un programa de computadora<br>
 			 recurriendo únicamente a subrutinas y a tres estructuras de control básicas: secuencia, selección (if y switch) e iteración (bucles for y while).</p>
 			<p>Particularmente lo veremos en el lenguaje c++, pero la sintaxis no es muy diferente a la de java.</p>
 			<p>Si desea aprender un poco mas acerca de esto, haga click en la imagen de abajo que dice Programacion Estructurada, lo llevara a un curso de c++ en youtube.</p>
-			<a href="https://www.youtube.com/watch?v=Zkxx78OW-DE&list=PLHxyqMuBkJ3yyIwbNSt1GuqLFccq2YYTx&index=1" target=_blank><img src="..\static\image\pec++.jpg" title="Curso de C++" alt="Logo de C++"  width=600 height=300></a>
+			<a href="https://www.youtube.com/watch?v=Zkxx78OW-DE&list=PLHxyqMuBkJ3yyIwbNSt1GuqLFccq2YYTx&index=1" target=_blank><img src="..\static\image\pec++.jpg" title="Curso de C++" alt="Logo de C++"></a>
 		</aside>
-		<p><a href="#menu">Volver al menu</a></p>
+		<h2><a href="#menu">Volver al inicio</a></h2>
 	</main>
 	<footer>
-		<h2 style=color:magenta>Contacto</h2>
-		<h4 style=color:magenta>Instagram</h4>
-		<a href="https://www.instagram.com/eze.jaljal/" target=_blank><img title="Instagram" alt="Instagram" src="..\static\image\instagram.png" width=65 height=60></a>
-		<h4 style=color:magenta>Facebook</h4>
-		<a href="https://www.facebook.com/eze.jaljal" target=_blank><img title="Facebook" alt="Facebook" src="..\static\image\facebook.png" width=65 height=60></a>
-		<h4 style=color:magenta>Correo</h4>
-		<a href="mailto:ezejaljal2001@hotmail.com?subject=Contacto">ezejaljal2001@hotmail.com</a>
+		<h2>Contacto</h2>
+		<h4>Instagram: 		<a href="https://www.instagram.com/eze.jaljal/" target=_blank><img title="Instagram" alt="Instagram" src="..\static\image\instagram.png" width=65 height=60></a></h4>
+		<h4>Facebook: <a href="https://www.facebook.com/eze.jaljal" target=_blank><img title="Facebook" alt="Facebook" src="..\static\image\facebook.png" width=65 height=60></a></h4>
+		<h4>Correo: <a href="mailto:ezejaljal2001@hotmail.com?subject=Contacto">ezejaljal2001@hotmail.com</a></h4>
 		<p><strong> Jaljal, Ezequiel &copy;Copyright 2024 Programación Visual, FI.</strong>  </p>
 	</footer>
 </body>

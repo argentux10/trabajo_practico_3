@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+	<title>Formulario</title>
+	<link rel="icon" href="..\static\image\htmlimage.ico">
+	<link rel="stylesheet" href="../static/css/estilos.css">
+</head>
+<body class="body-form">
+	<header>
+		<nav class="navbar">
+			<ul class="ul-form">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html">Cursos</a></li>
+				<li><a href="index.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form action="index.html" target="_blank">
+		<h1>Formulario</h1>
+		<div class="input-group">
+			<label for="name" > Nombres: </label>
+			<input type="text" id="name" name="name" maxlength="30" placeholder="Nombres" required>
+			<label for="lastname">Apellidos: </label>
+			<input type="text" id="lastname" name="lastname" maxlength="30" placeholder="Apellidos" required>
+			<label for="dni">DNI: </label>
+			<input type="number" id="dni" name="dni" placeholder="DNI sin puntos" required>
+			<label for="password">Contraseña: </label>
+			<input type="password" id="password" name="password" placeholder="Contraseña" required>
+			<label for="dateofbirth">Fecha de nacimiento: </label>
+			<input type="date" id="dateofbirth" name="dateofbirth" required>
+			<label for="gender">Género: </label>
+			<input type="radio" id="gender" name="gender" value="Masculino">Masculino
+			<input type="radio" id="gender" name="gender" value="Femenino">Femenino
+			<input type="radio" id="gender" name="gender" value="Otro">Otro
+			<label for="mail">Correo electrónico: </label>
+			<input type="email" id="mail" name="mail" placeholder="ejemplo@hotmail.com" required>
+			<label for="address">Dirección: </label>
+			<input type="text" id="address" name="address" placeholder="Direccion" required>
+			<label for="province">Seleccione provincia: </label>
+			<select name="province" required>
+				<option selected></option>
+				<option>Buenos Aires</option>
+				<option>Catamarca</option>
+				<option>Chaco</option>
+				<option>Chubut</option>
+				<option>Córdoba</option>
+				<option>Corrientes</option>
+				<option>Entre Ríos</option>
+				<option>Formosa</option>
+				<option>Jujuy</option>
+				<option>La Pampa</option>
+				<option>La Rioja</option>
+				<option>Mendoza</option>
+				<option>Misiones</option>
+				<option>Neuquén</option>
+				<option>Rio Negro</option>
+				<option>Salta</option>
+				<option>San Juan</option>
+				<option>San Luis</option>
+				<option>Santa Cruz</option>
+				<option>Santa Fe</option>
+				<option>Santiago del estero</option>
+				<option>Tierra del Fuego</option>
+				<option>Tucumán</option>
+			</select>
+			<label for="phone">Número de teléfono celular: </label>
+			<input type="tel" id="phone" name="phone" placeholder="Número teléfonico">
+			<label for="categories">Categorías de interés: </label>
+			<input type="checkbox" id="categories" name="categories" value="backend">Backend
+			<input type="checkbox" id="categories" name="categories" value="fronted">Fronted
+			<input type="checkbox" id="categories" name="categories" value=fullstack>Full Stack
+			<input type="checkbox" id="categories" name="categories" value=ux/ui>UX/UI Design
+			<label for="suggest">Sugerencias: </label>
+			<textarea id="suggest" name="suggest" rows="10" cols="40" placeholder="Escriba su sugerencia a la empresa aqui..."></textarea>
+			<input type="checkbox" id="terms" name="terms" value="termsAndConditions" required><a href="#">Acepto los términos y condiciones</a>
+			<input type="checkbox" id="terms" name="terms" value="sendsCompanyInformation" required><a href="#">Acepto recibir información relativa a la empresa</a>
+			<input class="btn" type="submit" value="Enviar">
+			<input class="btn" type="reset" value="Borrar">
+		</div>
+	</form>
+	<footer></footer>
+</body>
+</html>
